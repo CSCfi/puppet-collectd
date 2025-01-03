@@ -54,7 +54,7 @@ define collectd::plugin::python::module (
       {
         'title'  => $title,
         'config' => $config,
-        'module' => $_module_import,
+        'module' => $module,
       },
     ),
   }
